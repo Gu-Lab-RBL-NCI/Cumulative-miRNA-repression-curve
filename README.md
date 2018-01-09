@@ -5,8 +5,12 @@ This script provides the code to generate a cumulative miRNA repression curve. T
 ##### Diagram of the analysis pipeline used to obtain the Cumulative curves
 <img src="https://github.com/Gu-Lab-RBL-NCI/Cumulative-miRNA-repression-curve/blob/master/scheme.png">
 
-Cumulative fraction plot of fold-change in expression of mRNAs between the top and low levels of the miR-9-alt in patients from LGG
+## The current scripts for the generation of the cumulative miRNA repression curve execute the follow:
 
 **1. Import miRNA targets predicted from [TargetScan](http://www.targetscan.org//vert_50/seedmatch.html) [(Lewis et al., 2005)](https://www.ncbi.nlm.nih.gov/pubmed/15652477)**
+
 **2. pri-miRNA secondary structure**
 Note that the file `LGG-GBM.gene_expression.normalized.txt` needs to be downloaded separately from [The Cancer Genome Atlas datasets](https://tcga-data.nci.nih.gov/docs/publications/lgggbm_2016/).
+
+
+Cumulative fraction plot of fold-change in expression of mRNAs between the top and low levels of the miR-9-alt in patients from LGG
