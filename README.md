@@ -38,4 +38,8 @@ threshold <- 200 #threshold, minimum gene expression
 **5. Calculate for each gene the fold-change between the high/low miRNA level expressing groups**
 
 
-Cumulative fraction plot of fold-change in expression of mRNAs between the top and low levels of the miR-9-alt in patients from LGG
+
+
+### References:
+
+[Lewis, B.P., Burge, C.B., and Bartel, D.P. (2005). Conserved seed pairing, often flanked by adenosines, indicates that thousands of human genes are microRNA targets. Cell 120, 15–20.](https://www.ncbi.nlm.nih.gov/pubmed/15652477)
