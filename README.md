@@ -9,10 +9,19 @@ This script provides the code to generate a cumulative miRNA repression curve. T
 
 **1. Import miRNA targets predicted from [TargetScan](http://www.targetscan.org//vert_50/seedmatch.html) [(Lewis et al., 2005)](https://www.ncbi.nlm.nih.gov/pubmed/15652477)**
 
-**2. pri-miRNA secondary structure**
-
+**2. Import the normalized mRNA-seq expression from LGG patients**
 
 *Note that the file `LGG-GBM.gene_expression.normalized.txt` needs to be downloaded separately from [The Cancer Genome Atlas datasets](https://tcga-data.nci.nih.gov/docs/publications/lgggbm_2016/).*
+
+**3. Import LGG patients data manifest**
+
+**4. Set up top/low level and minimum expression of the genes**
+```
+#Parameters
+n <- 25 #number of samples
+threshold <- 200
+#threshold <- 200
+```
 
 
 Cumulative fraction plot of fold-change in expression of mRNAs between the top and low levels of the miR-9-alt in patients from LGG
